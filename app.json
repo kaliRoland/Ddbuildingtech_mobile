@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "DDBuildingTech",
+    "slug": "ddbuildingtech-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ddbuildingtech.mobile"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ddbuildingtech.mobile"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bd5026c5-1d8d-42f6-830c-ff5f9ac45c7c"
+      }
+    }
+  }
+}
